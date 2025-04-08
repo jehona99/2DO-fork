@@ -1,0 +1,95 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000; /* Fondo negro */
+  color: white; /* Texto blanco */
+}
+
+/* HEADER (navbar) */
+header {
+  background-color: navy; /* Azul marino (Navy) */
+  padding: 15px 0; /* Aseguramos que el padding sea consistente entre las páginas */
+}
+
+.navbar {
+  background-color: navy; /* Fondo azul marino */
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: white;
+}
+
+.foto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.foto {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.descripcion {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+section {
+  margin: 15px;
+}
+
+.separacion-inicio {
+  margin: 15px 0;
+}
+
+/* Centrando los párrafos de Educación y Experiencia */
+.educacion .detalle,
+.experiencia .detalle {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.contacto-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto-info p {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: navy; /* Azul marino (Navy) */
+  text-align: center;
+  padding: 15px 0; /* Aseguramos que el padding sea igual al del header */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
