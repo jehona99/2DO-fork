@@ -38,6 +38,15 @@ h3 {
 .foto {
   width: 100px;
   border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  border: 2px solid transparent;
+}
+
+/* Efecto al pasar el mouse (hover) */
+.foto:hover {
+  border-radius: 0%; /* cambia de forma redonda a cuadrada */
+  border-color: #2ecc71; /* verde sobrio */
+  filter: brightness(1.1); /* un poquito más clara */
 }
 
 .descripcion {
