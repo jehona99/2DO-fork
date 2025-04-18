@@ -94,9 +94,10 @@ footer {
   background-color: navy; /* Azul marino (Navy) */
   text-align: center;
   padding: 15px 0; /* Aseguramos que el padding sea igual al del header */
-  position: fixed;
+  position:static;
   width: 100%;
   bottom: 0;
+  margin-top: 400px;
 }
 
 footer p {
